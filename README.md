@@ -19,7 +19,7 @@ The backbone extraction methods and the implementation used (which must be downl
 We thank all the researchers who provided their implementation and all others.
 Please cite the original paper when using it:
 
-Case Study 1 (Instagram): 
+**Case Study 1 (Instagram):** 
 
 TriBE - Tripartide Backbone Extraction
   - Ferreira, Carlos HG, et al. "Unveiling community dynamics on      instagram political network." 12th ACM conference on web science. 2020.
@@ -42,7 +42,7 @@ GloSS Filter:
   - Radicchi, Filippo, José J. Ramasco, and Santo Fortunato. "Information filtering in complex weighted networks." Physical Review E 83.4 (2011): 046101.
   - Link to downlaod: https://cgi.luddy.indiana.edu/~filiradi/resources.html
 
-Case Study 2 (WhatsApp): 
+**Case Study 2 (WhatsApp):** 
 
 Polya Urn Filter:
   - Marcaccioli, Riccardo, and Giacomo Livan. "A pólya urn approach to information filtering in complex networks." Nature communications 10.1 (2019): 1-10.
