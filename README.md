@@ -3,7 +3,7 @@ Carlos H. G. Ferreira, Fabricio Murai, Ana P. C. Silva, Martino Trevisan, Luca V
 
 Code and data for reproduction of the paper submitted to PloS ONE:
 
-**Pre-requisites:** 
+## Pre-requisites: 
   - Python 3.6+ (TriBE, Noise Corrected, Disparity Filter, High Salient Skeleton, MLF, )
   - R (SDSM)
   - MatLab (Polya Urn)
@@ -17,9 +17,18 @@ Finally, there is a folder called Toy Example that contains the data in Gephi fo
 
 The backbone extraction methods and the implementation used (which must be downloaded from the original source) are described below. 
 We thank all the researchers who provided their implementation and all others.
-Please cite the original paper when using it:
+Please cite the original paper when using it.
 
-**Case Study 1 (Instagram):** 
+## Dataset and code
+
+The code can be found in the sub directories of this repository.
+It is in the form of Jupyter notebooks, that you must execute to reproduce our results.
+We run our experiments on a single powerful off-the-shelf Linux server.
+
+The datasets are large (Instagram especially). Thus, they must be downloaded from a separate repository.
+[Here](https://mplanestore.polito.it:5001/sharing/8MfeM2iWw) the link to download the datasets.
+
+## Case Study 1 (Instagram): 
 
 TriBE - Tripartide Backbone Extraction
   - Ferreira, Carlos HG, et al. "Unveiling community dynamics on      instagram political network." 12th ACM conference on web science. 2020.
@@ -42,7 +51,7 @@ GloSS Filter:
   - Radicchi, Filippo, José J. Ramasco, and Santo Fortunato. "Information filtering in complex weighted networks." Physical Review E 83.4 (2011): 046101.
   - Link to downlaod: https://cgi.luddy.indiana.edu/~filiradi/resources.html
 
-**Case Study 2 (WhatsApp):** 
+## Case Study 2 (WhatsApp):
 
 Polya Urn Filter:
   - Marcaccioli, Riccardo, and Giacomo Livan. "A pólya urn approach to information filtering in complex networks." Nature communications 10.1 (2019): 1-10.
