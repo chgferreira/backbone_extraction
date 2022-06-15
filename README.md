@@ -3,7 +3,7 @@ Carlos H. G. Ferreira, Fabricio Murai, Ana P. C. Silva, Martino Trevisan, Luca V
 
 Code and data for reproduction of the paper submitted to PloS ONE:
 
-Pre-requisites: 
+**Pre-requisites:** 
   - Python 3.6+ (TriBE, Noise Corrected, Disparity Filter, High Salient Skeleton, MLF, )
   - R (SDSM)
   - MatLab (Polya Urn)
