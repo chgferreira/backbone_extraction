@@ -15,7 +15,9 @@ As described in the paper, we have two case studies, which we will refer to here
 
 Finally, there is a folder called Toy Example that contains the data in Gephi format that corresponds to the views used in the work.
 
-The backbone extraction methods and the implementation used (which must be downloaded from the original source) are described below. Please cite the original paper when using it:
+The backbone extraction methods and the implementation used (which must be downloaded from the original source) are described below. 
+We thank all the researchers who provided their implementation and all others.
+Please cite the original paper when using it:
 
 Case Study 1 (Instagram): 
 
