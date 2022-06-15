@@ -47,7 +47,7 @@ Noise Corrected:
   - Link to download: https://www.michelecoscia.com/?page_id=287 
 
 MLF:  
-  - Unwinding the hairball graph: Pruning algorithms for weighted complex networks." Physical Review E 93.1 (2016): 012304
+  - Dianati, Navid. "Unwinding the hairball graph: Pruning algorithms for weighted complex networks." Physical Review E 93.1 (2016): 012304.
   - Link to download: Ask the author
 
 GloSS Filter: 
