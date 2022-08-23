@@ -2,7 +2,7 @@
 
 This repository includes the code for reproducing the results in the paper: *On Network Backbone Extraction for Modeling Online Collective Behavior* by Carlos H. G. Ferreira, Fabricio Murai, Ana P. C. Silva, Martino Trevisan, Luca Vassio, Idilio Drago, Marco Mellia, and Jussara M. Almeida. In te following, the instructions to execute our code and replicate the results.
 
-##Note well: 
+## Note well: 
 
 Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some of the algorithms. 
 
