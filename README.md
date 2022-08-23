@@ -6,7 +6,7 @@ This repository includes the code for reproducing the results in the paper: *On 
 
 Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some of the algorithms. 
 
-All experiments in the paper have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms can still be run on an ordinary laptop. 
+All results in the paper have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms can still be run on an ordinary laptop. 
 
 Instead of re-implementing the tested methods, we rely on the source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
 
