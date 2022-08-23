@@ -2,35 +2,44 @@
 
 This repository includes the code for reproducing the results in the paper: *On Network Backbone Extraction for Modeling Online Collective Behavior* by Carlos H. G. Ferreira, Fabricio Murai, Ana P. C. Silva, Martino Trevisan, Luca Vassio, Idilio Drago, Marco Mellia, and Jussara M. Almeida. In te following, the instructions to execute our code and replicate the results.
 
+##Note well: 
+
+Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some of the algorithms. 
+
+All experiments in the paper have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms can still be run on an ordinary laptop. 
+
+Instead of re-implementing the tested methods, we rely on the original source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
+
+Notice however that some authors have provided us their source code without permissions for redistributing the code. Moreover, some methods are implemented using proprietary tools (e.g., Matlab). For those cases we provide generic instructions on how to reproduce our results, together with pointers to help interested readers to obtain the missing pieces.
+
 ## Pre-requisites:
-You need a powerful machine to run our code. We tested it under Linux/Ubuntu, but it can run on different platforms as well. The main requisites are:
-  - Python 3.6+ (TriBE, Noise Corrected, Disparity Filter, High Salient Skeleton, MLF, )
+
+All methods can be executed under Linux/Ubuntu, but they can run on different platforms as well. The main requisites per method are:
+
+  - Python 3.6+ (TriBE, Noise Corrected, Disparity Filter, High Salient Skeleton, MLF)
   - R (SDSM)
   - MatLab (Polya Urn)
   - Java (RECAST)
   - C (GloSS Filter)
   - Gephi (Toy Example Section 2)
 
-As described in the paper, we have two case studies, which we will refer to here as Case Study 1 (Instagram) and Case Study 2 (WhatsApp). We then separate the data and codes from each of the two studies into folders. Each case study contains the notebooks and link to the data, separated by work step (backbone extraction, community detection, visualizations, etc.). Download these dataset files and place them in the same folder as the notebooks. For this see the next section.
+As described in the paper, we have two case studies, which we will refer to here as Case Study 1 (Instagram) and Case Study 2 (WhatsApp). We separate the data and our scripts for each case study into folders. Each case study contains the notebooks with links to the data, separated by work step (backbone extraction, community detection, visualization, etc). Download the dataset files and place them in the same folder as the notebooks. For this step, see the next section.
 
-Finally, there is a folder called Toy Example that contains the data in Gephi format that corresponds to the views used in the work.
+Finally, there is a folder called Toy Example that contains the data in Gephi format that corresponds to illustration shown in the paper.
 
-The backbone extraction methods and the implementation used (which must be downloaded from the original source) are described below. We thank all the researchers who provided their implementation and all others.
-Please cite the original paper when using it.
+As explained above, the backbone extraction algorithms are downloaded from the original sources. We explicitly thank all the researchers who provided us their implementation and source code, allowing such external comparison and validation of their work. For recognizing their efforts, please cite the original papers when using their methods.
 
 ## Dataset and code
 
-The code can be found in the sub directories of this repository.
+Our scripts can be found in the sub directories of this repository.
 It is in the form of Jupyter notebooks, that you must execute to reproduce our results.
-We run our experiments on a single powerful off-the-shelf Linux server.
 
 The datasets are large (Instagram especially). Thus, they must be downloaded from a separate repository.
 [Here](https://mplanestore.polito.it:5001/sharing/8MfeM2iWw) the link to download the datasets.
 
 ## Case Study 1 (Instagram):
 
-The code for the Instagram case study is into the `CS1 - Instagram` folder.
-Details on the algorithms we tested can be found in the papers below.
+The code for the Instagram case study is into the `CS1 - Instagram` folder. Details on the algorithms we tested can be found in the papers below.
 
 
 TriBE - Tripartide Backbone Extraction
