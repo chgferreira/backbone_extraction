@@ -27,7 +27,9 @@ As described in the paper, we have two case studies, which we will refer to here
 
 Finally, there is a folder called Toy Example that contains the data in Gephi format that corresponds to illustration shown in the paper.
 
-As explained above, the backbone extraction algorithms are downloaded from the original sources. We explicitly thank all the researchers who provided us their implementation and source code, allowing such external comparison and validation of their work. For recognizing their efforts, please cite the original papers when using their methods.
+As explained above, the backbone extraction algorithms are downloaded from the original sources. We thank all the researchers who provided us their implementation and source code, allowing such an external comparison and validation of their work. 
+
+*For recognizing their effort, please cite the original papers when using the methods.*
 
 ## Dataset and code
 
@@ -41,10 +43,10 @@ The datasets are large (Instagram especially). Thus, they must be downloaded fro
 
 The code for the Instagram case study is into the `CS1 - Instagram` folder. Details on the algorithms we tested can be found in the papers below.
 
-
 TriBE - Tripartide Backbone Extraction
-  - Ferreira, Carlos HG, et al. "Unveiling community dynamics on      instagram political network." 12th ACM conference on web science. 2020.
-  - Ferreira, Carlos HG, et al. "On the dynamics of political discussions on Instagram: A network perspective." Online Social Networks and Media 25 (2021): 100155.
+  - Ferreira, Carlos HG, et al. "Unveiling community dynamics on      instagram political network." 12th ACM conference on web science. 2020. https://dl.acm.org/doi/fullHtml/10.1145/3394231.3397913
+  - Ferreira, Carlos HG, et al. "On the dynamics of political discussions on Instagram: A network perspective." Online Social Networks and Media 25 (2021): 100155. https://www.sciencedirect.com/science/article/abs/pii/S2468696421000379
+  - The jupyter notebooks in this repository include the source code of TriBe.
 
 Stochastic Degree Sequence Model (SDSM)
   - Neal, Z. P., Domagalski, R., & Sagan, B. (2021). Comparing alternatives to the fixed degree sequence model for extracting the backbone of bipartite projections.  Scientific Reports, 11, 23929. https://doi.org/10.1038/s41598-021-03238-3
@@ -57,7 +59,7 @@ Noise Corrected:
 
 MLF:  
   - Dianati, Navid. "Unwinding the hairball graph: Pruning algorithms for weighted complex networks." Physical Review E 93.1 (2016): 012304.
-  - Link to download: Ask the author
+  - Please contact the authors directly to obtain their source code.
 
 GloSS Filter: 
   - Radicchi, Filippo, José J. Ramasco, and Santo Fortunato. "Information filtering in complex weighted networks." Physical Review E 83.4 (2011): 046101.
@@ -65,8 +67,7 @@ GloSS Filter:
 
 ## Case Study 2 (WhatsApp):
 
-The code for the Whatsapp case study is into the `CS2 - Whatsapp` folder.
-Details on the algorithms we tested can be found in the papers below.
+The code for the Whatsapp case study is into the `CS2 - Whatsapp` folder. Details on the algorithms we tested can be found in the papers below.
 
 Polya Urn Filter:
   - Marcaccioli, Riccardo, and Giacomo Livan. "A pólya urn approach to information filtering in complex networks." Nature communications 10.1 (2019): 1-10.
@@ -85,6 +86,6 @@ High Salient Skeleton (HSS):
   - Link to download: https://www.michelecoscia.com/?page_id=287
 
 Threshold: 
-  - Just remove the edges according to a percentile
+  - This method is trivial: It is enough to set a threshold for the edge weights. Our scripts include this procedure.
 
-If you have any questions, please contact me at chgferreira@dcc.ufmg.br or chgferreira@ufop.edu.br
+If you have any questions, please contact the authors at chgferreira@dcc.ufmg.br or chgferreira@ufop.edu.br
