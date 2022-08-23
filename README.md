@@ -14,7 +14,7 @@ Notice however that some authors have provided us their source code without perm
 
 ## Pre-requisites:
 
-All methods can be executed under Linux/Ubuntu, but they can run on different platforms as well. The main requisites per method are:
+All methods have been tested under Linux/Ubuntu, but they can run on different platforms as well. The main requirements per method are:
 
   - Python 3.6+ (TriBE, Noise Corrected, Disparity Filter, High Salient Skeleton, MLF)
   - R (SDSM)
