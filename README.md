@@ -8,9 +8,9 @@ Results presented in the paper are obtained using two large datasets that are li
 
 All experiments in the paper have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms can still be run on an ordinary laptop. 
 
-Instead of re-implementing the tested methods, we rely on the original source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
+Instead of re-implementing the tested methods, we rely on the source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
 
-Notice however that some authors have provided us their source code without permissions for redistributing the code. Moreover, some methods are implemented using proprietary tools (e.g., Matlab). For those cases we provide generic instructions on how to reproduce our results, together with pointers to help interested readers to obtain the missing pieces.
+Notice however that some authors have provided us their source code without permissions for redistributing it. Moreover, some methods are implemented using proprietary tools (e.g., Matlab). For those cases we provide generic instructions on how to reproduce our results, together with pointers to help interested readers obtain the missing pieces.
 
 ## Pre-requisites:
 
