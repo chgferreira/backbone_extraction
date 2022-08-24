@@ -4,13 +4,15 @@ This repository includes the code for reproducing the results in the paper: *On 
 
 ## Note well: 
 
-Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some of the algorithms. 
+Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some sets of the analysis.
 
-All results in the paper have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms can still be run on an ordinary laptop. 
+All results have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms and post-processing steps can still be run on an ordinary laptop. 
 
-Instead of re-implementing the tested methods, we rely on the source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
+Instead of re-implementing the tested backbone extraction algorithms, we rely on the source code provided by the original authors of each method to precisely reproduce their results. As such, the multiple backbone extraction methods are built using different programming languages and environments. We provide links to the websites from where source codes can be downloaded. Whenever possible, we provide scripts in the form of Jupyter notebooks to automate the download and execution of such external code. 
 
-Notice however that some authors have provided us their source code without permissions for redistributing it. Moreover, some methods are implemented using proprietary tools (e.g., Matlab). For those cases we provide generic instructions on how to reproduce our results, together with pointers to help interested readers obtain the missing pieces.
+Notice however that some authors have provided us their source code without permissions for redistributing it. Moreover, some methods are implemented using proprietary tools (e.g., Matlab). For those cases we provide generic instructions on how to reproduce our results, together with pointers to help interested readers obtain the missing sources. 
+
+Finally, we provide also the backbones extracted using all third-party algorithms. These files can be loaded directly in our jupyter notebooks to reproduce the downstream analysis presented in our paper.
 
 ## Pre-requisites:
 
