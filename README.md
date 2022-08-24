@@ -38,7 +38,7 @@ As explained above, the backbone extraction algorithms are downloaded from the o
 Our scripts can be found in the sub directories of this repository.
 It is in the form of Jupyter notebooks, that you must execute to reproduce our results.
 
-The datasets are large, for the Instagram use case especially -- in total around 18 GB "tar.gz" file, that generate 210 GB uncompressed files. They can be downloaded from a separate repository.
+The datasets are large, for the Instagram use case especially -- in total around 20 GB "tar.gz" file, that generate 210 GB uncompressed files. They can be downloaded from a separate repository.
 [Here](https://mplanestore.polito.it:5001/sharing/8MfeM2iWw) the link to download the datasets. We provide both the raw traces, as well as pre-processed files, e.g., the backbones extracted by each method.
 
 ## Case Study 1 (Instagram):
