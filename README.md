@@ -4,7 +4,7 @@ This repository includes the code for reproducing the results in the paper: *On 
 
 ## Note well: 
 
-Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some sets of the analysis.
+Results presented in the paper are obtained using two large datasets that are linked below. Given the size of these datasets, a machine with large amount of memory is needed to run some steps of the analysis.
 
 All results have been obtained using a Linux server with 120 GB RAM and 60 CPU cores, even if most algorithms and post-processing steps can still be run on an ordinary laptop. 
 
